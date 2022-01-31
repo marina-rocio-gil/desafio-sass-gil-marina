@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+/* VARIABLES */
+/* Font size */
+/* Colors */
+/* Borders */
+/* Buttons */
 /* Globals */
 hmtl {
-  font-size: 62.5%;
+  font-size: 60%;
   box-sizing: border-box;
 }
 hmtl body {
@@ -11,10 +16,41 @@ hmtl body {
   font-family: "Montserrat", sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+/* *, *::before, *::after {
+    box-sizing: inherit;
+} */
+h1 {
+  font-size: 3.2rem;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 6px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #26beaa;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Media queries */
+/* VARIABLES */
+/* Font size */
+/* Colors */
+/* Borders */
+/* Buttons */
+/* Header */
 ul {
   list-style-type: none;
 }
@@ -24,13 +60,18 @@ ul li {
 ul li a {
   text-decoration: none;
   color: #848484;
+  margin: 5px;
+  font-size: 1.2rem;
 }
 
+/* Main */
 img {
   width: 50%;
   height: auto;
+  margin: 1.5em;
 }
 
+/* Containers */
 nav, .inicio, .servicios, .footer-content {
   width: 80%;
   margin: auto;
@@ -40,6 +81,10 @@ nav, .inicio, .servicios, .footer-content {
   margin-bottom: 3%;
 }
 
-/* Variables */
+/* VARIABLES */
+/* Font size */
+/* Colors */
+/* Borders */
+/* Buttons */
 
 /*# sourceMappingURL=styles.css.map */

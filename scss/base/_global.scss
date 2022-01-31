@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
-
+@import 'variables';
 
 /* Globals */
 hmtl {
-    font-size: 62.5%;
+    font-size: 60%;
     box-sizing: border-box;
     body {
         margin: 0;
@@ -13,7 +13,32 @@ hmtl {
     }
 }
 
-*, *::before, *::after {
+/* *, *::before, *::after {
     box-sizing: inherit;
+} */
+
+h1 {
+    font-size: $font-h1;
+}
+
+h2 {
+    font-size: $font-h2;
+}
+
+h3 {
+    font-size: $font-h3;
+}
+
+p {
+    font-size: $font-p;
+}
+
+button {
+    padding: $btn-padding;
+    border: none;
+    border-radius: $border-radius;
+    background-color: $btn-color;
+    cursor: pointer;
+    margin: 10px;
 }
 
