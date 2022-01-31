@@ -31,4 +31,15 @@ img {
   height: auto;
 }
 
+nav, .inicio, .servicios, .footer-content {
+  width: 80%;
+  margin: auto;
+}
+
+.inicio, .title-servicios {
+  margin-bottom: 3%;
+}
+
+/* Variables */
+
 /*# sourceMappingURL=styles.css.map */
