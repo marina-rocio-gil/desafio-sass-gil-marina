@@ -1,0 +1,10 @@
+ul {
+    list-style-type: none;
+    li{
+        display: inline-block;
+        a {
+            text-decoration: none;
+            color: rgb(132, 132, 132);
+        }
+    }
+}

@@ -15,4 +15,20 @@ hmtl body {
   box-sizing: inherit;
 }
 
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #848484;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */
